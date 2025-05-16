@@ -3,4 +3,9 @@
     <string name="app_name">AndroidAssignments</string>
     <string name="hello_message">హలో వరల్డ్!</string>
     <string name="ButtonText">I\'m a button</string>
+
+    <string name="login_text">లాగిన్</string>
+    <string name="login_hint">లాగిన్ పేరు</string>
+    <string name="password_text">పాస్‌వర్డ్</string>
+    <string name="password_hint">పాస్‌వర్డ్‌ని నమోదు చేయండి</string>
 </resources>
