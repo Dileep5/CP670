@@ -7,4 +7,9 @@
     <string name="login_hint">login name</string>
     <string name="password_text">Password</string>
     <string name="password_hint">Enter password</string>
+
+    <string name="radio_button">Radio Button</string>
+    <string name="check_box">Check Box</string>
+    <string name="switch_label">Switch Label</string>
+    <string name="camera_button_desc">Open Camera</string>
 </resources>
