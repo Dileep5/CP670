@@ -23,8 +23,8 @@
             android:textColor="#000000" />
 
         <EditText
-            android:id="@+id/loginEditText"
-            android:layout_width="match_parent"
+            android:id="@+id/emailEditText"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/login_hint"
             android:inputType="textEmailAddress"
@@ -35,7 +35,7 @@
             android:minHeight="48dp"
             android:padding="12dp"
             android:layout_marginBottom="16dp"
-            android:maxWidth="600dp" />
+            android:maxWidth="400dp" />
 
         <TextView
             android:id="@+id/passwordTextView"
@@ -47,7 +47,7 @@
 
         <EditText
             android:id="@+id/passwordEditText"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/password_hint"
             android:inputType="textPassword"
@@ -58,6 +58,22 @@
             android:minHeight="48dp"
             android:padding="12dp"
             android:layout_marginBottom="16dp"
-            android:maxWidth="600dp" />
+            android:maxWidth="400dp" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_button_text"
+            android:layout_marginTop="16dp"
+            android:minHeight="48dp"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6200EE"
+            android:layout_gravity="center"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:contentDescription="@string/login_button_description" />
+
     </LinearLayout>
 </ScrollView>

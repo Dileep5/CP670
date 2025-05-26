@@ -4,12 +4,22 @@
     <string name="ButtonText">I\'m a button</string>
 
     <string name="login_text">Login</string>
-    <string name="login_hint">login name</string>
+    <string name="login_hint">Enter your email</string>
     <string name="password_text">Password</string>
-    <string name="password_hint">Enter password</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="login_button_text">Login</string>
+    <string name="login_button_description">Login to your account</string>
 
     <string name="radio_button">Radio Button</string>
     <string name="check_box">Check Box</string>
     <string name="switch_label">Switch Label</string>
     <string name="camera_button_desc">Open Camera</string>
+
+    <string name="dialog_message">Do you want to finish this activity?</string>
+    <string name="dialog_title">Finish Activity</string>
+    <string name="ok">Yes</string>
+    <string name="cancel">No</string>
+    <string name="radio_clicked">Radio button clicked</string>
+    <string name="switch_on">Switch turned ON</string>
+    <string name="switch_off">Switch turned OFF</string>
 </resources>

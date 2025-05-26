@@ -1,15 +1,26 @@
 <resources>
     <string name="app_name">AndroidAssignments</string>
     <string name="hello_message">హలో వరల్డ్!</string>
-    <string name="ButtonText">I\'m a button</string>
+    <string name="ButtonText">నేను ఒక బటన్‌ను</string>
 
     <string name="login_text">లాగిన్</string>
-    <string name="login_hint">లాగిన్ పేరు</string>
-    <string name="password_text">పాస్‌వర్డ్</string>
-    <string name="password_hint">పాస్‌వర్డ్‌ని నమోదు చేయండి</string>
+    <string name="login_hint">మీ ఇమెయిల్ ను నమోదు చేయండి</string>
+    <string name="password_text">పాస్వర్డ్</string>
+    <string name="password_hint">మీ పాస్వర్డ్ ను నమోదు చేయండి</string>
+    <string name="login_button_text">లాగిన్ చేయండి</string>
+    <string name="login_button_description">మీ ఖాతాలో లాగిన్ అవ్వండి</string>
 
     <string name="radio_button">రేడియో బటన్</string>
     <string name="check_box">చెక్ బాక్స్</string>
-    <string name="switch_label">స్విచ్ లేబుల్</string>
-    <string name="camera_button_desc">కెమెరాను తెరువు</string>
+    <string name="switch_label">స్విచ్</string>
+    <string name="camera_button_desc">క్యామేరా తెరవండి</string>
+
+    <string name="dialog_message">మీరు ఈ activity ని ముగించాలనుకుంటున్నారా?</string>
+    <string name="dialog_title">ఆయినదిగా గుర్తించు</string>
+    <string name="ok">అవును</string>
+    <string name="cancel">కాదు</string>
+    <string name="radio_clicked">రేడియో బటన్ నొక్కారు</string>
+    <string name="switch_on">స్విచ్ ఆన్ చేయబడింది</string>
+    <string name="switch_off">స్విచ్ ఆఫ్ చేయబడింది</string>
+
 </resources>

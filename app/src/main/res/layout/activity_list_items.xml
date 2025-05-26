@@ -12,6 +12,7 @@
     tools:context=".ListItemsActivity">
 
     <RadioButton
+        android:id="@+id/radioButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/radio_button"
@@ -19,6 +20,7 @@
         android:layout_margin="8dp" />
 
     <CheckBox
+        android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/check_box"
@@ -26,6 +28,7 @@
         android:layout_margin="8dp" />
 
     <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/switch_label"
@@ -35,6 +38,7 @@
         android:layout_margin="8dp" />
 
     <ImageButton
+        android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_menu_camera"
@@ -45,4 +49,6 @@
         android:minHeight="48dp"
         android:gravity="center"
         android:layout_margin="8dp" />
+
+
 </GridLayout>
