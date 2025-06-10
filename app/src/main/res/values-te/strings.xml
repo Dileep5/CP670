@@ -2,6 +2,11 @@
     <string name="app_name">AndroidAssignments</string>
     <string name="hello_message">హలో వరల్డ్!</string>
     <string name="ButtonText">నేను ఒక బటన్‌ను</string>
+    <string name="send">పంపు</string>
+    <string name="start_chat_button_text">చాట్ ప్రారంభించండి</string>
+    <string name="chat_greeting">చాట్‌కు స్వాగతం!</string>
+    <string name="outgoing_icon">పంపిన ఐకాన్</string>
+    <string name="incoming_icon">అందుకున్న ఐకాన్</string>
 
     <string name="login_text">లాగిన్</string>
     <string name="login_hint">మీ ఇమెయిల్ ను నమోదు చేయండి</string>

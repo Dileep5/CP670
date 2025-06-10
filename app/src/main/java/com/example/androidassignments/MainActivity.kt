@@ -14,6 +14,7 @@ import androidx.activity.enableEdgeToEdge
 class MainActivity : AppCompatActivity() {
 
     private lateinit var button: Button
+    private lateinit var startChatButton: Button
     private val tag = "MainActivity"
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,10 +25,18 @@ class MainActivity : AppCompatActivity() {
 
         button = findViewById(R.id.button)
         button.setOnClickListener {
-            print("Button clicked, launching ListItemsActivity")
-            Toast.makeText(this, "Opening list...", Toast.LENGTH_SHORT).show()
+            Log.d(tag, "Button clicked, launching ListItemsActivity")
+            print("Opening list...")
             val intent = Intent(this, ListItemsActivity::class.java)
             startActivityForResult(intent, 10)
+        }
+
+        startChatButton = findViewById(R.id.startChatButton)
+        startChatButton.setOnClickListener {
+            Log.i(tag, "User clicked Start Chat")
+            print("Starting chat...")
+            val chatIntent = Intent(this, ChatWindow::class.java)
+            startActivity(chatIntent)
         }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
