@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">AndroidAssignments</string>
     <string name="hello_message">హలో వరల్డ్!</string>
     <string name="ButtonText">నేను ఒక బటన్‌ను</string>
@@ -28,4 +29,13 @@
     <string name="switch_on">స్విచ్ ఆన్ చేయబడింది</string>
     <string name="switch_off">స్విచ్ ఆఫ్ చేయబడింది</string>
 
+    <string name="dialog_icon">డైలాగ్ ఐకాన్</string>
+    <string name="hint_new_message">కొత్త సందేశం</string>
+    <string name="choice_1">ఎంపిక 1</string>
+    <string name="choice_2">ఎంపిక 2</string>
+    <string name="choice_3">ఎంపిక 3</string>
+    <string name="about">గురించి</string>
+    <string name="test_toolbar_button_text">టెస్ట్ టూల్బార్</string>
+
 </resources>
+

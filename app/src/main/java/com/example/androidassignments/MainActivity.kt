@@ -39,6 +39,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(chatIntent)
         }
 
+        val testToolbarButton: Button = findViewById(R.id.testToolbarButton)
+        testToolbarButton.setOnClickListener {
+            val intent = Intent(this, TestToolbar::class.java)
+            startActivity(intent)
+        }
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)

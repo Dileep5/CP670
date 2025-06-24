@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.androidassignments">
@@ -9,7 +10,10 @@
     </queries>
 
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-feature android:name="android.hardware.camera" android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
 
     <application
         android:allowBackup="true"
@@ -21,6 +25,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidAssignments"
         tools:targetApi="31">
+        <activity
+            android:name=".TestToolbar"
+            android:exported="false"
+            android:theme="@style/Theme.AndroidAssignments.NoActionBar" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
@@ -35,20 +43,18 @@
         <activity
             android:name=".ChatWindow"
             android:parentActivityName=".MainActivity" />
-
         <activity
             android:name=".ListItemsActivity"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true" />
-
         <activity
             android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -56,6 +62,6 @@
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
             android:value=".MainActivity" />
-
     </application>
+
 </manifest>

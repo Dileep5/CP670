@@ -27,4 +27,21 @@
     <string name="radio_clicked">Radio button clicked</string>
     <string name="switch_on">Switch turned ON</string>
     <string name="switch_off">Switch turned OFF</string>
+
+    <string name="dialog_icon">Dialog icon</string>
+    <string name="hint_new_message">New Message</string>
+    <string name="choice_1">Choice 1</string>
+    <string name="choice_2">Choice 2</string>
+    <string name="choice_3">Choice 3</string>
+    <string name="about">About</string>
+    <string name="test_toolbar_button_text">Test Toolbar</string>
+
+
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+
 </resources>
